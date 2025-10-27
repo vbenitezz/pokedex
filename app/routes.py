@@ -1,4 +1,4 @@
-import os, random, socket
+import random, socket
 from flask import Blueprint, jsonify, render_template_string
 from .pokeneas import pokeneas
 
