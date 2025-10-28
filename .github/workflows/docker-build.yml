@@ -24,5 +24,6 @@ jobs:
       - name: Build and push image
         uses: docker/build-push-action@v5
         with:
+          context: .
           push: true
           tags: vbenitezz/pokedex:latest
